@@ -1,0 +1,64 @@
+body {
+  font-family: 'Roboto', sans-serif !important;
+  overflow-x: hidden;
+  width: 100% !important;
+}
+
+.font-light{
+  font-weight: 300;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.section-navbar {
+  background-color: #ed1550 !important;
+}
+
+.navbar {
+  background-color: #ed1550 !important;
+  color: #ffffff;
+}
+
+.nav-item a {
+  font-size: 18px;
+  color: #ffffff !important;
+}
+
+.cart {
+
+}
+
+.slide-show {
+  width: 100%;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 14px;
+}
+
+.up-marketing-digital {
+  text-decoration: none;
+  color: #000000 !important;
+}
+
+@media (max-width: 767px) {
+  .logotipo {
+    max-height: 70px;
+  }
+
+  /* modificar quando alterar o slide-show */
+  .slide-show div {
+    height: 250px;
+  }
+
+  .img {
+    width: 100vw;
+  }
+
+}
