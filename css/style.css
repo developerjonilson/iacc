@@ -35,6 +35,29 @@ body {
   width: 100%;
 }
 
+.slide-show div {
+   height: 350px;
+ }
+
+ .main-slide-show-margin{
+   background: #FFFFFF;
+   padding-top: 30px;
+ }
+
+.news-bar{
+  background: #FFFFFF;
+  padding-top: 30px;
+}
+
+.news-background{
+  background: #f0f0f0;
+}
+
+.news-margin{
+  padding-top: 30px;
+}
+
+
 .section-donaiton-bar {
   background-color: #fff200;
   color: #000000;

@@ -7,6 +7,15 @@ $(document).ready(function(){
     autoplaySpeed: 2000,
   });
 
+  $(document).ready(function(){
+  $('.slide-show').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  });
+});
+
   $('.slide-show-testimonial').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
