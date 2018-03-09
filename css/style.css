@@ -57,12 +57,24 @@ body {
   padding-top: 30px;
 }
 
+.section-donation-bar {
+  background-color: #ffffff;
+}
 
-.section-donaiton-bar {
+.wellow-background {
   background-color: #fff200;
+  margin-top: 30px;
+  position: relative;
+}
+
+.image-toy {
+  position: absolute;
+}
+
+.donation-content {
   color: #000000;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .donaiton-title{
@@ -92,8 +104,14 @@ footer {
     height: 250px;
   }
 
+  .img-toy {
+    display: none;
+  }
+
   .img {
     width: 100vw;
   }
+
+
 
 }
