@@ -2,6 +2,7 @@ body {
   font-family: 'Roboto', sans-serif !important;
   overflow-x: hidden;
   width: 100% !important;
+  font-size: 14px;
 }
 
 .font-light{
@@ -32,6 +33,17 @@ body {
 
 .slide-show {
   width: 100%;
+}
+
+.section-donaiton-bar {
+  background-color: #fff200;
+  color: #000000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.donaiton-title{
+  font-size: 30px;
 }
 
 footer {
