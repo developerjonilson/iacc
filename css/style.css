@@ -53,15 +53,10 @@ body {
   color: #000000 !important;
 }
 
-.slide-show {
+.main-slide-show {
   width: 100%;
-
+  margin: 30px 0;
 }
-
-.main-slide-show-margin{
-   background: #FFFFFF;
-   padding-top: 30px;
- }
 
  .section-donation-bar {
    background-color: #ffffff;
@@ -149,6 +144,10 @@ transition: all .2s;
 
 .about-title {
   color: #02bef2;
+}
+
+.slide-about {
+  padding-right: 10px;
 }
 
 
