@@ -186,6 +186,35 @@ body {
 }
 /* end section-partners*/
 
+/* start section-contato-us */
+
+.contato-us{
+  background-color: #1bc4f3;
+}
+
+.font-title-footer{
+  color: white;
+  font-size: 28px;
+  padding-top: 30px;
+}
+
+.newsletter{
+  padding-top: 30px;
+}
+
+.btn-submit {
+  background-color: #FFFFFF;
+  color: #02bef2;
+  border-radius: 0 !important;
+}
+
+.font-input{
+  color: #202020;
+  font-style: italic;
+}
+
+/* end section-contato-us*/
+
 
 footer {
   padding-top: 30px;
