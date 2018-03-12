@@ -149,6 +149,34 @@ body {
 
 /* end section about */
 
+/* start section-partners */
+
+.section-partners{
+  background: #f0f0f0;
+}
+
+.name-partners{
+  color: #ed1550;
+  font-size: 36px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.partners-slide div {
+  height: 100px;
+  font-size: 20px;
+}
+
+.partner-image {
+  padding-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.slick-dots li button::before {
+  font-size: 30px !important;
+}
+/* end section-partners*/
 
 footer {
   padding-top: 30px;
