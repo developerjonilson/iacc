@@ -45,7 +45,12 @@ body {
 }
 
 .cart {
+  background-color: #fff200 !important;
+  border-radius: 10px !important;
+}
 
+.cart a {
+  color: #000000 !important;
 }
 
 .slide-show {
@@ -58,42 +63,68 @@ body {
    padding-top: 30px;
  }
 
-.news-bar{
-  background: #FFFFFF;
-  padding-top: 30px;
+ .section-donation-bar {
+   background-color: #ffffff;
+ }
+
+ .wellow-background {
+   background-color: #fff200;
+   margin-top: 30px;
+   position: relative;
+ }
+
+ .image-toy {
+   position: relative;
+ }
+
+ .image-toy img {
+   position: absolute;
+   top: 0;
+   left: 0;
+ }
+
+ .donation-content {
+   color: #000000;
+   padding-top: 15px;
+   padding-bottom: 15px;
+ }
+
+ .donaiton-title{
+   font-size: 30px;
+   margin-top: 14px;
+ }
+
+.section-news {
+  background-color: #f0f0f0;
+  margin: 30px 0;
+  padding: 30px 0;
 }
 
-.news-background{
-  background: #f0f0f0;
-  padding-bottom: 30px;
+.news-space {
+  padding-bottom: 20px;
 }
 
-.news-margin{
-  padding-top: 30px;
-}
-
-.section-donation-bar {
-  background-color: #ffffff;
-}
-
-.wellow-background {
-  background-color: #fff200;
-  margin-top: 30px;
+.btnMore {
   position: relative;
 }
 
-.image-toy {
+.btnMore a {
   position: absolute;
+  background-color: #ed1550;
+  color: #fff;
+  border-radius: 15px;
+  padding: 5px;
+  bottom: -50px;
+  left: calc(50% - 100px);
+  width: 200px;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
-.donation-content {
+.btnMore a:hover {
+  background-color: #fff200;
   color: #000000;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.donaiton-title{
-  font-size: 30px;
 }
 
 
@@ -148,6 +179,11 @@ footer {
 
   .img {
     width: 100vw;
+  }
+
+  .donaiton-title{
+    /* font-size: 30px; */
+    margin-top: 0;
   }
 
 }
