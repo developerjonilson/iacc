@@ -96,6 +96,29 @@ body {
   font-size: 30px;
 }
 
+
+/* start section about */
+.section-about {
+  padding-top: 30px;
+}
+
+.backgroud-grey {
+  background-color: #f8f4f1;
+}
+
+.content-about {
+  padding-top: 65px;
+  padding-bottom: 80px;
+}
+
+.about-title {
+  color: #02bef2;
+}
+
+
+/* end section about */
+
+
 footer {
   padding-top: 30px;
   padding-bottom: 30px;
