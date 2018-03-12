@@ -13,6 +13,23 @@ body {
   font-weight: 700;
 }
 
+.section-news{
+
+}
+.date-news{
+  color: #ed1550;
+  font-size: 12px;
+}
+
+.previous-news{
+  font-size: 13px;
+}
+
+.title-news{
+  font-weight: 700;
+  font-size: 18px;
+}
+
 .section-navbar {
   background-color: #ed1550 !important;
 }
@@ -33,13 +50,10 @@ body {
 
 .slide-show {
   width: 100%;
+
 }
 
-.slide-show div {
-   height: 350px;
- }
-
- .main-slide-show-margin{
+.main-slide-show-margin{
    background: #FFFFFF;
    padding-top: 30px;
  }
@@ -51,6 +65,7 @@ body {
 
 .news-background{
   background: #f0f0f0;
+  padding-bottom: 30px;
 }
 
 .news-margin{
@@ -111,7 +126,5 @@ footer {
   .img {
     width: 100vw;
   }
-
-
 
 }

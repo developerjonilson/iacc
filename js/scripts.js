@@ -9,6 +9,7 @@ $(document).ready(function(){
 
   $(document).ready(function(){
   $('.slide-show').slick({
+    arrows: false,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
