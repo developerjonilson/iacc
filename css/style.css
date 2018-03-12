@@ -120,7 +120,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   border:  2px solid transparent;
-transition: all .2s;
+  transition: all .2s;
 }
 
 .btnMore a:hover {
@@ -133,8 +133,14 @@ transition: all .2s;
 /* start section about */
 .section-about {
   margin: 30px 0;
-  padding: 30px 0;
   background-color: #f8f4f1;
+}
+
+.image-background {
+  background-image: url(../img/slider2.png);
+  background-repeat: no-repeat;
+	background-position: 0 0;
+  background-size: contain;
 }
 
 .content-about {
@@ -149,12 +155,10 @@ transition: all .2s;
 .slide-about {
   padding-right: 10px;
 }
-
-
 /* end section about */
 
-/* start section-partners */
 
+/* start section-partners */
 .section-partners{
   background: #f0f0f0;
 }
@@ -181,6 +185,7 @@ transition: all .2s;
   font-size: 30px !important;
 }
 /* end section-partners*/
+
 
 footer {
   padding-top: 30px;
@@ -214,8 +219,11 @@ footer {
   }
 
   .donaiton-title{
-    /* font-size: 30px; */
     margin-top: 0;
+  }
+
+  .image-background {
+    background-image: none;
   }
 
 }
