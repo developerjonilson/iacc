@@ -87,6 +87,36 @@ body {
    margin-top: 14px;
  }
 
+ .btn-donation {
+  font-family: arial;
+  border:none;
+  padding:10px;
+  cursor: pointer;
+  display:inline-block;
+  text-decoration: none;
+  border-radius: 0;
+}
+
+.btn-donate {
+  background:#fff200;
+  color:#000;
+  box-shadow:0 5px 0 #b1a804;
+}
+
+.btn-donate:hover {
+  background:#ed1550;
+  box-shadow:0 7px 0 #b40433;
+  color: #fff;
+}
+
+.btn-donate:active{
+  position:relative;
+  top:5px;
+  box-shadow:none;
+}
+
+
+
 .section-news {
   background-color: #f0f0f0;
   margin: 30px 0;
