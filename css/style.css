@@ -37,18 +37,18 @@ body {
 }
 
 .nav-item a {
-  font-size: 18px;
-  color: #ffffff !important;
-}
-
-.cart {
-  background-color: #fff200 !important;
-  border-radius: 10px !important;
-  margin-left: 15px;
-}
-
-.cart a {
+  font-size: 14px;
   color: #000000 !important;
+}
+
+.section-top-bar{
+  background-color: #fff200 !important;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.nav-yellow{
+  background-color: #fff200 !important;
 }
 
 .main-slide-show {
