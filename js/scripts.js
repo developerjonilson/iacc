@@ -22,16 +22,15 @@ $(document).ready(function() {
     variableWidth: true,
     arrows: false,
     dots: true,
-    speed: 1000,
-    slidesToShow: 2,
-    slidesToScroll: 1,
+    speed: 3000,
+    slidesToShow: 3,
+    slidesToScroll: 3,
     infinite: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 3000,
     autoplay: true,
-    centerMode: true,
+    
     responsive: [
       {
-        // breakpoint: 1024,
         breakpoint: 767,
         settings: {
           slidesToShow: 3,
@@ -45,18 +44,20 @@ $(document).ready(function() {
         breakpoint: 600,
         settings: {
           centerMode: true,
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          arrows: false
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          arrows: false,
+          dots: false
         }
       },
       {
         breakpoint: 480,
         settings: {
           centerMode: true,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrows: false
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          arrows: false,
+          dots: false
         }
       }
     ]
