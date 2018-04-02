@@ -37,9 +37,18 @@ body {
 }
 
 .nav-item a {
-  font-size: 14px;
+  font-size: 13px;
   color: #000000 !important;
 }
+
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+
+.dropdown-backgroud{
+  background-color: #fff200 !important;
+}
+
 
 .section-top-bar{
   background-color: #fff200 !important;
