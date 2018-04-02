@@ -357,6 +357,11 @@ footer {
     margin-left: 0;
   }
 
+  .logo-tag {
+    width: 100%;
+    text-align: center;
+  }
+
   .phone-navbar {
     display: none;
   }
