@@ -29,6 +29,29 @@ body {
 
 .section-navbar {
   background-color: #ed1550 !important;
+  color: #fff;
+  font-size: 16px;
+}
+
+.button-store-yellow-bar {
+  display: none;
+}
+
+.button-store {
+  background-color: #fff200;
+  text-transform: uppercase;
+  padding: 5px 15px;
+  border-radius: 10px;
+  color: #000000;
+  position: relative;
+}
+
+.button-store a {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .navbar {
@@ -103,7 +126,7 @@ body {
   cursor: pointer;
   display:inline-block;
   text-decoration: none;
-  border-radius: 0;
+  border-radius: 15px;
 }
 
 .btn-donate {
@@ -332,6 +355,18 @@ footer {
 
   .cart {
     margin-left: 0;
+  }
+
+  .phone-navbar {
+    display: none;
+  }
+
+  .button-store {
+    display: none;
+  }
+
+  .button-store-yellow-bar {
+    display: block;
   }
 
   /* modificar quando alterar o slide-show */
